@@ -5,6 +5,6 @@ jobs:
     uses: gardenlinux/package-build/.github/workflows/build_pkg.yml@main
     with:
       source: git+https://github.com/CESNET/libyang/
-      debian_source: native
+      debian_source: libyang2
       git_filter: v[0-9\.]*$
       git_tag_match: v([0-9\-]*)
